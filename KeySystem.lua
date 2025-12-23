@@ -75,7 +75,7 @@ local Window = WindUI:CreateWindow({
         URL = "discord.gg/ojukontol",       
         SaveKey = true, 
         KeyValidator = function(EnteredKey)
-            if EnteredKey == Key then
+            if EnteredKey == "Hexyra--200029182301823999920481039-V0.0.1" then
                 loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
                 Notify("Key Validated", "lucide:check", "You have successfully entered the key!")
                 Notify("Key Validated", "lucide:check", "Load The Script!")
@@ -85,3 +85,4 @@ local Window = WindUI:CreateWindow({
         end
     },
 })
+
