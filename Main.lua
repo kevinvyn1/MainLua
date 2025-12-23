@@ -60,7 +60,7 @@ local Window = WindUI:CreateWindow({
         Anonymous = true,
     },
     KeySystem = { 
-        Key = {"Hexyra--200029182301823999920481039-V0.0.1"},
+        Key = "Hexyra--200029182301823999920481039-V0.0.1",
         Note = "If you load this script, then the risk is your own responsibility.",     
         Thumbnail = {
             Image = "rbxassetid://128773645319812",
@@ -116,4 +116,5 @@ do
             print("Toggle Activated" .. tostring(state))
         end
     })
+
 end
